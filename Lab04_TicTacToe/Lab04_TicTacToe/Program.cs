@@ -5,11 +5,18 @@ namespace Lab04_TicTacToe
 {
     public class Program
     {
+        /// <summary>
+        /// Main Method - The entry point of the program
+        /// </summary>
+        /// <param name="args">a string of arguments</param>
         static void Main(string[] args)
         {
             StartGame();
         }
 
+        /// <summary>
+        /// Start Game Method - Sets up the basic user interface to start the game and collect the names of the players
+        /// </summary>
         static void StartGame()
         {
             // TODO: Setup your game. Create a new method that creates your players and instantiates the game class. Call that method in your Main method.
@@ -24,6 +31,11 @@ namespace Lab04_TicTacToe
 
         }
 
+        /// <summary>
+        /// InstantiateGame Method - Sets up some of the basic rules of the game like which maker each player has and who gets to go first. This is also where a winner is declared
+        /// </summary>
+        /// <param name="p1">Player one</param>
+        /// <param name="p2">Player two</param>
         static void InstantiateGame(string p1, string p2)
         {
             Player playerOne = new Player()

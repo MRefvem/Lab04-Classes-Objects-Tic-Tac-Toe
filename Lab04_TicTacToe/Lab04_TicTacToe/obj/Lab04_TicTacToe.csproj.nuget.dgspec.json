@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {}
+    "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {
+    "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
         "projectName": "Lab04_TicTacToe",
-        "projectPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
-        "packagesPath": "C:\\Users\\oogun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
+        "projectPath": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+        "packagesPath": "C:\\Users\\mkref\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\oogun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mkref\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -63,7 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

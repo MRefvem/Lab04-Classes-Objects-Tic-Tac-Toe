@@ -117,9 +117,9 @@ namespace XUnitTestProject1
             //Act
             string[,] testBoard = new string[,]
             {
+                {"X", "O", "X" },
                 {"X", "X", "O" },
-                {"X", "X", "O" },
-                {"O", "O", "X" }
+                {"O", "X", "O" }
 
             };
 

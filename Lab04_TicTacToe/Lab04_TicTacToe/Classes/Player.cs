@@ -17,7 +17,11 @@ namespace Lab04_TicTacToe.Classes
 		/// </summary>
 		public bool IsTurn { get; set; }
 
-
+		/// <summary>
+		/// GetPosition Method - This method is where the game finds out which position each player wants to choose per turn
+		/// </summary>
+		/// <param name="board">Takes in the game board</param>
+		/// <returns>Returns the desired position the user wants</returns>
 		public Position GetPosition(Board board)
 		{
 			Position desiredCoordinate = null;
@@ -31,7 +35,11 @@ namespace Lab04_TicTacToe.Classes
 
 		}
 
-
+		/// <summary>
+		/// PositionForNumber Method - defines in great detail what position correlates with each number
+		/// </summary>
+		/// <param name="position">Takes in the number entered</param>
+		/// <returns>Returns the actual position that number correlates with</returns>
 		public static Position PositionForNumber(int position)
 		{
 			switch (position)
@@ -50,7 +58,10 @@ namespace Lab04_TicTacToe.Classes
 			}
 		}
 
-	
+		/// <summary>
+		/// TakeTurn Method - performs the actions that take place when user has their turn, also returns an exception if the selected space is already used in a previous turn
+		/// </summary>
+		/// <param name="board">Takes in the game board as a parameter</param>
 		public void TakeTurn(Board board)
 		{
 			IsTurn = true;
