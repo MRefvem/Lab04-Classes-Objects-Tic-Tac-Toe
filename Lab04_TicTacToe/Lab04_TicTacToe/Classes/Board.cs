@@ -16,7 +16,9 @@ namespace Lab04_TicTacToe.Classes
 			{"7", "8", "9"},
 		};
 
-
+		/// <summary>
+		/// DisplayBoard Method - Outputs the game board visually onto the console per turn
+		/// </summary>
 		public void DisplayBoard()
 		{
 
