@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab04_TicTacToe.Classes
 {
-	class Game
+	public class Game
 	{
 		public Player PlayerOne { get; set; }
 		public Player PlayerTwo { get; set; }
@@ -25,47 +25,45 @@ namespace Lab04_TicTacToe.Classes
 		}
 
 		/// <summary>
-		/// Activate the Play of the game
+		/// Activate the Play of the game, switch players, verify if there's a tie.
 		/// </summary>
 		/// <returns>Winner</returns>
 		public Player Play()
 		{
+			
 
-            //TODO: Complete this method and utilize the rest of the class structure to play the game.
-
-            /*
-             * Complete this method by constructing the logic for the actual playing of Tic Tac Toe. 
-             * 
-             * A few things to get you started:
-            1. A turn consists of a player picking a position on the board with their designated marker. 
-            2. Display the board after every turn to show the most up to date state of the game
-            3. Once a Winner is determined, display the board one final time and return a winner
-
-            Few additional hints:
-                Be sure to keep track of the number of turns that have been taken to determine if a draw is required
-                and make sure that the game continues while there are unmarked spots on the board. 
-
-            Use any and all pre-existing methods in this program to help construct the method logic. 
-             */
-
-            while (Winner == null)
-            {
+			int counter = 1;
+			while (!CheckForWinner(Board))
+			{
 				Board.DisplayBoard();
 
-                if (PlayerOne.IsTurn == false)
-                {
+				if (PlayerOne.IsTurn)
+				{
 					PlayerOne.TakeTurn(Board);
-                }
-				else
-                {
-					PlayerTwo.TakeTurn(Board);
+					counter++;
 					SwitchPlayer();
-                }
-                CheckForWinner(Board);
 
-            }
+				}
+				else
+				{
+					PlayerTwo.TakeTurn(Board);
+					counter++;
+					SwitchPlayer();
+				}
 
-            
+				CheckForWinner(Board);
+
+				if (counter >= 9)
+				{
+					return Winner;
+				}
+
+				Console.Clear();
+
+
+			}
+
+			Board.DisplayBoard();
 
 			return Winner;
 
@@ -79,7 +77,6 @@ namespace Lab04_TicTacToe.Classes
 		/// <returns>if winner exists</returns>
 		public bool CheckForWinner(Board board)
 		{
-			bool boolean = false;
 
 			int[][] winners = new int[][]
 			{
@@ -108,14 +105,16 @@ namespace Lab04_TicTacToe.Classes
 
 				// TODO:  Determine a winner has been reached. 
 				// return true if a winner has been reached.
-				while (boolean = false)
-                {
-                    if ((a == b) && (b == c) && (a == c))
-                    {
-						boolean = true;
-						return true;
-                    }
-                }
+				if (a + b + c == "XXX")
+				{
+					Winner = PlayerOne;
+					return true;
+				}
+				else if (a + b + c == "OOO")
+				{
+					Winner = PlayerTwo;
+					return true;
+				}
 			}
 			return false;
 		}

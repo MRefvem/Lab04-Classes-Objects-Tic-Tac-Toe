@@ -15,7 +15,7 @@ This is a C# console application that is a two (2) person, turn based Tic-Tac-To
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/MRefvem/Lab04-Classes-Objects-Tic-Tac-Toe.git
+$ git clone https://github.com/Omac092627/Lab04-Classes-Objects-Tic-Tac-Toe.git
 ```
 
 ### To run the program from Visual Studio:
@@ -30,14 +30,40 @@ Then select and open ```StarterCode.sln```
 ---
 
 ### Visuals
-***[Add screenshots of your application in action]***
 
 #### Application Start
-![Image 1](https://via.placeholder.com/750x500)
+
+1. PROMPT THE USERS TO ENTER THEIR NAMES
+
+![Prompt User](Lab04_TicTacToe/Assets/images/PromptUserNameTicTac.PNG)
+
+
+
 #### Using the Application
-![Image 1](https://via.placeholder.com/750x500)
+
+2. HAVE THE USERS SWITCH OFF BY TAKING TURNS
+
+![Image 2](Lab04_TicTacToe/Assets/images/switchUsersOff.PNG)
+
+
+![Image 2](Lab04_TicTacToe/Assets/images/switchUsersOffAgain.PNG)
+
+
+
 #### Application End
-![Image 1](https://via.placeholder.com/750x500)
+
+3. DECLARE A WINNER
+
+![Image 3](Lab04_TicTacToe/Assets/images/winnerTicTac.PNG)
+
+
+4. OR DECLARE A DRAW
+
+
+![Image 3](Lab04_TicTacToe/Assets/images/drawTicTac.PNG)
+
+
+
 
 ---
 
